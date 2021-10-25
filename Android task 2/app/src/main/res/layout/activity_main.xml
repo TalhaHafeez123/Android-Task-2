@@ -85,6 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:ems="10"
+            android:hint="Enter gold price"
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.656"
@@ -97,6 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:ems="10"
+            android:hint="Enter silver price"
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -109,6 +111,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:ems="10"
+            android:hint="Enter cash"
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -122,6 +125,7 @@
             android:layout_marginTop="4dp"
             android:layout_marginEnd="56dp"
             android:ems="10"
+            android:hint="Enter other amount"
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -141,8 +145,9 @@
 
         <TextView
             android:id="@+id/resultview"
-            android:layout_width="90dp"
-            android:layout_height="24dp"
+            android:layout_width="182dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="16dp"
             android:textColor="@color/black"
@@ -150,7 +155,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/button1"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.329"
+            app:layout_constraintHorizontal_bias="0.427"
             app:layout_constraintStart_toStartOf="@+id/editnum4"
             app:layout_constraintTop_toBottomOf="@+id/editnum4" />
 

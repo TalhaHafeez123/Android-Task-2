@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView resultt=findViewById(R.id.resultview);
                 String fresult=zakat.toString();
               String f=fresult;
-                resultt.setText(fresult.concat("Rs"));
+                resultt.setText(fresult.concat(" ").concat("Rs"));
 
           }
         });
